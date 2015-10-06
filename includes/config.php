@@ -3,12 +3,12 @@ $site_is_live 			= false;
 $site_is_a_redesign		= true;			//T or F - if they're a client of ours who is redesigning.  If True, fill out the next line.
 $redesign_menu_addon	= 'redesign'; 	//When doing a redesign, give this the name of the redesign folder. If not a redesign, use ''.
 
-$org_id					= 'NAFP';
-$their_domain 			= 'nwafp.org';
+$org_id					= 'CAMC';
+$their_domain 			= 'camconline.org';
 $server_name 			= 'viethconsulting.com'; //viethconsulting.com for old clients, memberleap.com for new clients
 $host_number 			= '2';  //as in, "host7.viethwebhosting.com...".  ONLY MATTERS ON NEW CLIENTS- all new clients will be 7 for now
-$contact_email 			= 'info@nwafp.org'; //For contact_us.php
-$org_name 				= 'Northwest Association for Financial Professionals'; //Proper name for page title 
+$contact_email 			= 'info@camconline.org'; //For contact_us.php
+$org_name 				= 'Capital Area Manufacturing Council'; //Proper name for page title 
 $ucc 					= false; //for when someone has mms.theirdomainname.com...
 
 //Google stuff
