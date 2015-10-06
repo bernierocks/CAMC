@@ -61,7 +61,7 @@
             <div class="col col-xs-6 col-sm-4 col-md-4 logo-area">   
                 <div data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true, delay:300}">
                 <a class="logo" href="<?=$base;?>" alt="<?=($title!=''?$title." - ".$org_name:$org_name)?> Official Logo">
-                    <?php readfile('images/temp.svg');?>
+                    <img alt="" src="#">
                     
                     </a>
                     </div>
