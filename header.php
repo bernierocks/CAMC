@@ -85,18 +85,6 @@
 
 
 
-<?
-
-if($home!='Y' && $_GET['mms'] != 'X'){ 
-} else { 
-    	echo '<section class="masthead">
-     <!--  data-parallax="{"y" : 100}"  -->
-    <img alt="" src="'.$base.'images/masthead.jpg">
-    
-</section><!-- /.masthead -->';
-
-}?>
-
 <div class="bc-content">
 <div class="container">  
     <div class="row">  
