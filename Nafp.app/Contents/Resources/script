@@ -1,5 +1,0 @@
-cd /users/haroldking/desktop/bc-dev/nafp
-git add .
-git commit -m "cc"
-git ftp push --user nwafp --passwd nw9922afpFN! ftp://67.225.182.242/public_html/redesign
-echo "Upload Success!"
