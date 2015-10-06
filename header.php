@@ -37,49 +37,7 @@
    
    
     <? echo mobile_menu($option_array); ?>    
-    <div class="top-header">
-        <div class="container">   
-            <div class="row">  
-                <div class="col col-sm-12 col-md-12">   
-                    <ul class="list-unstyled  list-inline">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#myModal">
-                                MEMBER LOGIN
-                            </a>
-                        </li>
-                        <li data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true, delay:600}"><?php readfile('images/icon-twitter.svg');?></li>
-                        <li data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true, delay:900}"><?php readfile('images/icon-linkdin.svg');?></li>
-                    </ul>
-                    
-                        
-                </div><!-- /.col12-->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.top-header -->
-    <div class="mid-header">
-        <div class="container">   
-            <div class="col col-xs-6 col-sm-4 col-md-4 logo-area">   
-                <div data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true, delay:300}">
-                <a class="logo" href="<?=$base;?>" alt="<?=($title!=''?$title." - ".$org_name:$org_name)?> Official Logo">
-                    <img alt="" src="#">
-                    
-                    </a>
-                    </div>
-            </div><!-- /.col4-->
-            
-           <div id="main-menu" class="hidden-xs	hidden-sm">
-            <? echo quick_menu(); ?>
-            </div><!-- /.main-menu -->
-            
-            <div id="mobile-menu-col">
-                    
-                <div id="mobile-toggle" class="mobileMenuTrigger hidden-md hidden-lg">
-                    <?php readfile('images/menu.svg');?>
-                </div>
-            </div><!-- end of #mobile-menu-col --> 
-            
-        </div><!-- /.container -->
-    </div><!-- /.mid-header -->
+
 </header><!-- /header -->
 
 
