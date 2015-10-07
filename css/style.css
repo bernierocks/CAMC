@@ -161,15 +161,7 @@ a {
  *
  * =========================================================================================== */
 
-/* line 165, style.sass */
-
-header {
-  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
-}
-
-/* line 167, style.sass */
+/* line 166, style.sass */
 
 header .top-header {
   background-color: #002b46;
@@ -178,7 +170,7 @@ header .top-header {
   padding: 4px 0;
 }
 
-/* line 172, style.sass */
+/* line 171, style.sass */
 
 header .top-header svg {
   width: 38px;
@@ -186,7 +178,7 @@ header .top-header svg {
   vertical-align: middle;
 }
 
-/* line 176, style.sass */
+/* line 175, style.sass */
 
 header .top-header a {
   color: white;
@@ -194,7 +186,7 @@ header .top-header a {
   vertical-align: middle;
 }
 
-/* line 180, style.sass */
+/* line 179, style.sass */
 
 header .top-header ul {
   float: right;
@@ -207,13 +199,13 @@ header .top-header ul {
  *
  * =========================================================================================== */
 
-/* line 191, style.sass */
+/* line 190, style.sass */
 
 #NP ul {
   float: right;
 }
 
-/* line 194, style.sass */
+/* line 193, style.sass */
 
 #NP ul li a {
   font-size: 18px;
@@ -223,14 +215,14 @@ header .top-header ul {
 }
 
 @media (max-width: 1199px) {
-  /* line 194, style.sass */
+  /* line 193, style.sass */
 
   #NP ul li a {
     padding: 35px 30px 37px !important;
   }
 }
 
-/* line 203, style.sass */
+/* line 202, style.sass */
 
 .nav li a {
   padding-top: 4px;
@@ -239,7 +231,7 @@ header .top-header ul {
   padding-right: 10px !important;
 }
 
-/* line 209, style.sass */
+/* line 208, style.sass */
 
 .nav .open > a,
 .nav .open > a:hover,
@@ -250,26 +242,26 @@ header .top-header ul {
   color: white !important;
 }
 
-/* line 213, style.sass */
+/* line 212, style.sass */
 
 .navbar-nav > li > .dropdown-menu {
   background: #6a6a6a;
   padding: 0;
 }
 
-/* line 216, style.sass */
+/* line 215, style.sass */
 
 .navbar-nav > li > .dropdown-menu li {
   border-bottom: 1px solid #003300;
 }
 
-/* line 218, style.sass */
+/* line 217, style.sass */
 
 .navbar-nav > li > .dropdown-menu li:nth-last-child {
   border-bottom: 1px solid transparent;
 }
 
-/* line 220, style.sass */
+/* line 219, style.sass */
 
 .navbar-nav > li > .dropdown-menu a {
   font-size: 11px;
@@ -279,27 +271,27 @@ header .top-header ul {
   padding-bottom: 5px;
 }
 
-/* line 228, style.sass */
+/* line 227, style.sass */
 
 #main-menu .caret {
   display: none;
 }
 
-/* line 233, style.sass */
+/* line 232, style.sass */
 
 #mobile-toggle svg {
   width: 32px;
   height: 32px;
 }
 
-/* line 238, style.sass */
+/* line 237, style.sass */
 
 .modal-body {
   position: relative;
   padding: 20px 20px 40px;
 }
 
-/* line 242, style.sass */
+/* line 241, style.sass */
 
 #mobileMenuWrapper {
   z-index: 999999999999999 !important;
@@ -319,14 +311,14 @@ header .top-header ul {
   background-image: -webkit-linear-gradient(90deg, #2d5076 0, #7092b7 100%);
 }
 
-/* line 259, style.sass */
+/* line 258, style.sass */
 
 #mobileMenuWrapper.open {
   left: 0px;
   bottom: 0px;
 }
 
-/* line 263, style.sass */
+/* line 262, style.sass */
 
 #mobileMenuWrapper #mobile-menu {
   overflow: auto;
@@ -334,7 +326,7 @@ header .top-header ul {
   overflow-x: hidden;
 }
 
-/* line 267, style.sass */
+/* line 266, style.sass */
 
 #mobileMenuWrapper #mobile-menu > li#triggerClose {
   color: white;
@@ -347,7 +339,7 @@ header .top-header ul {
   transform: rotate(45deg);
 }
 
-/* line 274, style.sass */
+/* line 273, style.sass */
 
 #mobileMenuWrapper #mobile-menu a {
   width: 100%;
@@ -358,14 +350,14 @@ header .top-header ul {
   padding: 8px 10px;
 }
 
-/* line 281, style.sass */
+/* line 280, style.sass */
 
 #mobileMenuWrapper #mobile-menu a:hover {
   background-color: #003cab;
   text-decoration: none;
 }
 
-/* line 284, style.sass */
+/* line 283, style.sass */
 
 #mobileMenuWrapper ul {
   margin: 0px;
@@ -373,26 +365,26 @@ header .top-header ul {
   list-style-type: none;
 }
 
-/* line 288, style.sass */
+/* line 287, style.sass */
 
 #mobileMenuWrapper {
   background-color: rgba(0, 0, 0, 0.96);
 }
 
-/* line 290, style.sass */
+/* line 289, style.sass */
 
 #mobileMenuWrapper a {
   text-decoration: none;
 }
 
-/* line 292, style.sass */
+/* line 291, style.sass */
 
 #mobileMenuWrapper ul.mDropdown {
   margin: 0 15px;
   display: none;
 }
 
-/* line 295, style.sass */
+/* line 294, style.sass */
 
 #mobile-toggle {
   border: none;
@@ -403,7 +395,7 @@ header .top-header ul {
 }
 
 @media (max-width: 767px) {
-  /* line 295, style.sass */
+  /* line 294, style.sass */
 
   #mobile-toggle {
     margin-top: -7px;
@@ -411,14 +403,14 @@ header .top-header ul {
 }
 
 @media (max-width: 342px) {
-  /* line 295, style.sass */
+  /* line 294, style.sass */
 
   #mobile-toggle {
     margin-top: 5px;
   }
 }
 
-/* line 304, style.sass */
+/* line 303, style.sass */
 
 #mobile-menu-col {
   top: 13px;
@@ -429,7 +421,7 @@ header .top-header ul {
 }
 
 @media (max-width: 991px) {
-  /* line 304, style.sass */
+  /* line 303, style.sass */
 
   #mobile-menu-col {
     margin-top: -70px;
@@ -438,7 +430,7 @@ header .top-header ul {
   }
 }
 
-/* line 316, style.sass */
+/* line 315, style.sass */
 
 #mobile-logo {
   width: 40%;
@@ -447,20 +439,20 @@ header .top-header ul {
   margin-bottom: 20px;
 }
 
-/* line 321, style.sass */
+/* line 320, style.sass */
 
 #mobile-logo a {
   margin: 0 !important;
 }
 
-/* line 323, style.sass */
+/* line 322, style.sass */
 
 #mobile-logo svg#logo {
   width: 250px;
   max-width: 250px;
 }
 
-/* line 329, style.sass */
+/* line 328, style.sass */
 
 #mobile-toggle {
   padding: 7px 7px 3px;
@@ -469,14 +461,14 @@ header .top-header ul {
 }
 
 @media (min-width: 991px) {
-  /* line 329, style.sass */
+  /* line 328, style.sass */
 
   #mobile-toggle {
     display: none !important;
   }
 }
 
-/* line 335, style.sass */
+/* line 334, style.sass */
 
 #mobile-toggle svg {
   max-width: 47px;
@@ -485,20 +477,20 @@ header .top-header ul {
   margin-top: -9px;
 }
 
-/* line 341, style.sass */
+/* line 340, style.sass */
 
 #mobile-toggle svg g rect,
 #mobile-toggle svg g path {
   fill: #002b46;
 }
 
-/* line 349, style.sass */
+/* line 348, style.sass */
 
 #mobileMenuWrapper #mobile-menu a:hover {
   background-color: #008ab1;
 }
 
-/* line 352, style.sass */
+/* line 351, style.sass */
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
@@ -513,20 +505,20 @@ header .top-header ul {
  *
  * =========================================================================================== */
 
-/* line 366, style.sass */
+/* line 365, style.sass */
 
 .logo-area {
   z-index: 9999999;
 }
 
-/* line 369, style.sass */
+/* line 368, style.sass */
 
 .logo svg {
   margin-bottom: -5px;
 }
 
 @media (max-width: 767px) {
-  /* line 369, style.sass */
+  /* line 368, style.sass */
 
   .logo svg {
     width: 250px;
@@ -534,7 +526,7 @@ header .top-header ul {
 }
 
 @media (max-width: 379px) {
-  /* line 369, style.sass */
+  /* line 368, style.sass */
 
   .logo svg {
     width: 184px;
@@ -548,7 +540,7 @@ header .top-header ul {
  *
  * =========================================================================================== */
 
-/* line 385, style.sass */
+/* line 384, style.sass */
 
 .masthead {
   height: 287px;
@@ -559,7 +551,7 @@ header .top-header ul {
 }
 
 @media (max-width: 690px) {
-  /* line 385, style.sass */
+  /* line 384, style.sass */
 
   .masthead {
     height: 150px;
@@ -567,14 +559,14 @@ header .top-header ul {
 }
 
 @media (max-width: 320px) {
-  /* line 385, style.sass */
+  /* line 384, style.sass */
 
   .masthead {
     height: 120px;
   }
 }
 
-/* line 395, style.sass */
+/* line 394, style.sass */
 
 .masthead img {
   position: absolute;
@@ -584,7 +576,7 @@ header .top-header ul {
 }
 
 @media (max-width: 1170px) {
-  /* line 395, style.sass */
+  /* line 394, style.sass */
 
   .masthead img {
     top: -100px;
@@ -592,7 +584,7 @@ header .top-header ul {
 }
 
 @media (max-width: 990px) {
-  /* line 395, style.sass */
+  /* line 394, style.sass */
 
   .masthead img {
     top: -50px;
@@ -600,7 +592,7 @@ header .top-header ul {
 }
 
 @media (max-width: 480px) {
-  /* line 395, style.sass */
+  /* line 394, style.sass */
 
   .masthead img {
     top: -24px;
@@ -608,32 +600,32 @@ header .top-header ul {
 }
 
 @media (max-width: 450px) {
-  /* line 395, style.sass */
+  /* line 394, style.sass */
 
   .masthead img {
     top: 0;
   }
 }
 
-/* line 411, style.sass */
+/* line 410, style.sass */
 
 .top-header ul > li:nth-child(2) .st2 {
   fill: white !important;
 }
 
-/* line 413, style.sass */
+/* line 412, style.sass */
 
 .top-header ul > li:nth-child(2) .st1 {
   fill: #008ab1 !important;
 }
 
-/* line 417, style.sass */
+/* line 416, style.sass */
 
 .top-header ul > li:nth-child(3) .st0 {
   fill: #008ab1 !important;
 }
 
-/* line 419, style.sass */
+/* line 418, style.sass */
 
 .top-header ul > li:nth-child(3) .st1 {
   fill: white !important;
@@ -645,7 +637,7 @@ header .top-header ul {
  *
  * =========================================================================================== */
 
-/* line 431, style.sass */
+/* line 430, style.sass */
 
 .bc-content {
   padding: 42px 0;
@@ -657,14 +649,14 @@ header .top-header ul {
  *
  * =========================================================================================== */
 
-/* line 443, style.sass */
+/* line 442, style.sass */
 
 .modal-body {
   text-align: center;
 }
 
 @media (max-width: 480px) {
-  /* line 446, style.sass */
+  /* line 445, style.sass */
 
   .modal-body #login div {
     width: 100%;
@@ -673,7 +665,7 @@ header .top-header ul {
 }
 
 @media (max-width: 480px) {
-  /* line 450, style.sass */
+  /* line 449, style.sass */
 
   .modal-body #login input[type="submit"] {
     width: 95%;
@@ -683,28 +675,28 @@ header .top-header ul {
 }
 
 @media (max-width: 320px) {
-  /* line 450, style.sass */
+  /* line 449, style.sass */
 
   .modal-body #login input[type="submit"] {
     width: 93%;
   }
 }
 
-/* line 457, style.sass */
+/* line 456, style.sass */
 
 .modal-body #login a {
   color: #008ab1;
 }
 
 @media (max-width: 480px) {
-  /* line 457, style.sass */
+  /* line 456, style.sass */
 
   .modal-body #login a {
     margin: 40px 0 0 -3px;
   }
 }
 
-/* line 461, style.sass */
+/* line 460, style.sass */
 
 .bc-mobilelogin {
   font-size: 16px;
@@ -716,7 +708,7 @@ header .top-header ul {
 }
 
 @media (min-width: 722px) {
-  /* line 461, style.sass */
+  /* line 460, style.sass */
 
   .bc-mobilelogin {
     display: none;
@@ -724,14 +716,14 @@ header .top-header ul {
 }
 
 @media (max-width: 722px) {
-  /* line 471, style.sass */
+  /* line 470, style.sass */
 
   .login-area {
     display: none;
   }
 }
 
-/* line 474, style.sass */
+/* line 473, style.sass */
 
 .login-area #login {
   display: inline-block;
@@ -740,14 +732,14 @@ header .top-header ul {
 }
 
 @media (max-width: 991px) {
-  /* line 474, style.sass */
+  /* line 473, style.sass */
 
   .login-area #login {
     padding-top: 28px;
   }
 }
 
-/* line 481, style.sass */
+/* line 480, style.sass */
 
 #login div {
   width: 165px;
@@ -756,14 +748,14 @@ header .top-header ul {
 }
 
 @media (max-width: 992px) {
-  /* line 481, style.sass */
+  /* line 480, style.sass */
 
   #login div {
     width: 147px;
   }
 }
 
-/* line 488, style.sass */
+/* line 487, style.sass */
 
 #login input[type="submit"] {
   background-color: #002b46;
@@ -775,7 +767,7 @@ header .top-header ul {
   margin-left: -4px;
 }
 
-/* line 496, style.sass */
+/* line 495, style.sass */
 
 #login input[type="text"],
 #login input[type="password"] {
@@ -792,7 +784,7 @@ header .top-header ul {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 510, style.sass */
+/* line 509, style.sass */
 
 #login a {
   position: absolute;
@@ -806,7 +798,7 @@ header .top-header ul {
  *
  * =========================================================================================== */
 
-/* line 525, style.sass */
+/* line 524, style.sass */
 
 .pre-footer {
   margin-top: 50px;
@@ -815,28 +807,28 @@ header .top-header ul {
   background: #e5e5e5;
 }
 
-/* line 530, style.sass */
+/* line 529, style.sass */
 
 .pre-footer ul {
   text-align: center;
 }
 
 @media (max-width: 991px) {
-  /* line 532, style.sass */
+  /* line 531, style.sass */
 
   .pre-footer ul li {
     padding: 16px;
   }
 }
 
-/* line 537, style.sass */
+/* line 536, style.sass */
 
 .copyright {
   background-color: #3a3a3a;
   padding: 40px 0;
 }
 
-/* line 540, style.sass */
+/* line 539, style.sass */
 
 .copyright p {
   text-align: right;
@@ -851,13 +843,13 @@ header .top-header ul {
  *
  * =========================================================================================== */
 
-/* line 558, style.sass */
+/* line 557, style.sass */
 
 .bc-calendar div:nth-child(n+9) {
   display: none;
 }
 
-/* line 560, style.sass */
+/* line 559, style.sass */
 
 .bc-calendar .col {
   margin: 10px;
@@ -871,20 +863,20 @@ header .top-header ul {
 }
 
 @media (min-width: 991%) {
-  /* line 560, style.sass */
+  /* line 559, style.sass */
 
   .bc-calendar .col {
     width: 31%;
   }
 }
 
-/* line 570, style.sass */
+/* line 569, style.sass */
 
 .bc-calendar .col h4 {
   margin-bottom: 2px;
 }
 
-/* line 572, style.sass */
+/* line 571, style.sass */
 
 .bc-calendar .col h4 a {
   color: #002a48;
@@ -895,13 +887,13 @@ header .top-header ul {
   line-height: 26px;
 }
 
-/* line 579, style.sass */
+/* line 578, style.sass */
 
 .bc-calendar .col p {
   font-size: 16px;
 }
 
-/* line 581, style.sass */
+/* line 580, style.sass */
 
 .bc-calendar .col .bc-date,
 .bc-calendar .col .bc-email {
@@ -909,13 +901,13 @@ header .top-header ul {
   margin-bottom: 0px;
 }
 
-/* line 584, style.sass */
+/* line 583, style.sass */
 
 .bc-calendar .col .bc-email {
   margin-bottom: 15px;
 }
 
-/* line 586, style.sass */
+/* line 585, style.sass */
 
 .bc-calendar .col .bc-email a {
   color: #008ab1;
@@ -925,13 +917,13 @@ header .top-header ul {
   transition: all 0.2s ease, padding 0.8s linear;
 }
 
-/* line 590, style.sass */
+/* line 589, style.sass */
 
 .bc-calendar .col .bc-email a:hover {
   color: #00627e;
 }
 
-/* line 593, style.sass */
+/* line 592, style.sass */
 
 .bc-calendar .col .read-more {
   font-family: "Open Sans", sans-serif;
@@ -940,7 +932,7 @@ header .top-header ul {
   text-align: right;
 }
 
-/* line 598, style.sass */
+/* line 597, style.sass */
 
 .bc-calendar .col .read-more a {
   color: #008ab1;
@@ -950,7 +942,7 @@ header .top-header ul {
   transition: all 0.2s ease, padding 0.8s linear;
 }
 
-/* line 602, style.sass */
+/* line 601, style.sass */
 
 .bc-calendar .col .read-more a:hover {
   color: #00627e;
