@@ -46,10 +46,10 @@
         <div class="row">
             <div class="col col-sm-12 col-md-12">
                 <div class="left">
-              <img class="img-responsive" id="logo" src="http://www.camconline.org/images/logo.png">
+              <img class="img-responsive" id="logo" src="<?=$base;?>images/logo.png">
                     </div><!-- /.left -->
                 <div class="right">
-              <img class="img-responsive" id="head-graphic" src="http://www.camconline.org/images/head-image.png">
+              <img class="img-responsive" id="head-graphic" src="<?=$base;?>images/head-image.png">
                     </div><!-- /.right -->
             </div><!-- /.col12-->
         </div><!-- /.row -->
