@@ -3,6 +3,9 @@
 <!-- When adding a google font, be sure to remove the HTTP: from the URL.  
 	 This will allow us to switch between HTTP and HTTPS -->
 
+<div class="container">   
+    <div class="bc-wrap">
+
 <header>   
        <?php
         $before    =    '<li id="triggerClose" class="mobileMenuTrigger">+</li>';                          
@@ -36,7 +39,9 @@
         </div><!-- End of Member Login Modal -->
    
    
-    <? echo mobile_menu($option_array); ?>    
+    <? echo mobile_menu($option_array); ?>  
+    
+    
 
 </header><!-- /header -->
 
