@@ -52,6 +52,9 @@
               <img class="img-responsive" id="head-graphic" src="<?=$base;?>images/head-image.png">
                     </div><!-- /.right -->
             </div><!-- /.col12-->
+            <div class="col col-sm-12 col-md-12">   
+                 <? echo quick_menu(); ?>
+            </div><!-- /.col12-->
         </div><!-- /.row -->
 	</div>
 </header><!-- /header -->
