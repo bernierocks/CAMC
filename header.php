@@ -42,7 +42,14 @@
     <? echo mobile_menu($option_array); ?>  
     
     
-
+    <div id="head-wrapper">
+        <div class="row">
+            <div class="col col-sm-12 col-md-12">   
+              <img id="logo" src="http://www.camconline.org/images/logo.png">
+              <img id="head-graphic" src="http://www.camconline.org/images/head-image.png">
+            </div><!-- /.col12-->
+        </div><!-- /.row -->
+	</div>
 </header><!-- /header -->
 
 
