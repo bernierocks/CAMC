@@ -6,11 +6,6 @@
 
 // }
 ?>
-        </div><!-- /.col12-->
-    </div><!-- /.row -->
-
-
-</div><!-- /.container -->
 </div><!-- /.bc-content -->
 
 <footer>  
