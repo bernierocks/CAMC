@@ -67,7 +67,7 @@ include('includes/functions.php');
 		<![endif]-->
         
         		<!-- Google fonts -->
-		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+		
 	</head>
 
 	<body>
