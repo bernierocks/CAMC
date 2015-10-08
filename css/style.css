@@ -532,7 +532,7 @@ header .right {
 
 /* line 380, style.sass */
 
-#slide-area {
+.bc-slidearea {
   background-color: #0071c2;
   padding: 15px 15px 15px 0px;
 }
