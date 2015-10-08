@@ -5,7 +5,8 @@ include('header.php'); // Include pulls another file into the page, and sticks i
  
 
 <div class="row">  
-    <div id="slide-area">
+    <div id="slide-area" class="col col-sm-12 col-md-12">
+    
     <div class="col col-sm-12 col-md-9">   
         
             <?php  echo quick_slideshow('FD1', 7000); ?> 
@@ -13,7 +14,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
     </div><!-- /.col9-->
     <div class="col col-sm-12 col-md-3">   
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
-    </div><!-- /.col9-->    
+    </div><!-- /.col3-->    
         </div><!-- /#slide-area -->
 </div><!-- /.row -->
 
