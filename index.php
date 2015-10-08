@@ -13,7 +13,11 @@ include('header.php'); // Include pulls another file into the page, and sticks i
         
     </div><!-- /.col9-->
     <div class="col col-sm-12 col-md-4">   
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+        <div id="welcome-message">
+			<span class="titles2" style="font-weight: 700;">Welcome to CAMC</span>
+			<img alt="" height="118" src="http://camconline.org/photos/21975_05122015083516.jpg" style="width: 100px; height: 118px; border-width: 5px; border-style: solid; margin: 5px; float: left;" width="100"><br>
+The Capital Area Manufacturing Council (CAMC) is an important business alliance in Mid-Michigan, represented by manufacturing executives and HR professionals. &nbsp;A CAMC membership offers many benefits, such as increased knowledge of industries best practices by networking with innovative and forward-thinking peers,&nbsp;collaborated training efforts, outreach to Michigan’s youth, meaningful agendas at bi-monthly member meetings and industry tours.&nbsp;If you're a leader in the manufacturing community, we invite you to join!&nbsp;- <u><strong><a href="http://www.camconline.org/docs/Chris_Turner_Profile.pdf"><span style="color:#ADD8E6;">Chris Turner</span></a></strong></u><span style="color:#FFFFFF;">, </span>President of F.C. Mason, and CAMC Chair<br>
+&nbsp;		</div>
     </div><!-- /.col3-->    
             
         </div><!-- /.row -->
