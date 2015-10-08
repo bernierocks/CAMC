@@ -599,20 +599,29 @@ header .right {
   margin-top: -3px;
 }
 
+@media (max-width: 767px) {
+  /* line 422, style.sass */
+
+  #welcome-message {
+    margin-top: 15px;
+    padding: 0 10px;
+  }
+}
+
 /* ===========================================================================================
  *
  * 						Login Form
  *
  * =========================================================================================== */
 
-/* line 433, style.sass */
+/* line 436, style.sass */
 
 .modal-body {
   text-align: center;
 }
 
 @media (max-width: 480px) {
-  /* line 436, style.sass */
+  /* line 439, style.sass */
 
   .modal-body #login div {
     width: 100%;
@@ -621,7 +630,7 @@ header .right {
 }
 
 @media (max-width: 480px) {
-  /* line 440, style.sass */
+  /* line 443, style.sass */
 
   .modal-body #login input[type="submit"] {
     width: 95%;
@@ -631,28 +640,28 @@ header .right {
 }
 
 @media (max-width: 320px) {
-  /* line 440, style.sass */
+  /* line 443, style.sass */
 
   .modal-body #login input[type="submit"] {
     width: 93%;
   }
 }
 
-/* line 447, style.sass */
+/* line 450, style.sass */
 
 .modal-body #login a {
   color: #008ab1;
 }
 
 @media (max-width: 480px) {
-  /* line 447, style.sass */
+  /* line 450, style.sass */
 
   .modal-body #login a {
     margin: 40px 0 0 -3px;
   }
 }
 
-/* line 451, style.sass */
+/* line 454, style.sass */
 
 .bc-mobilelogin {
   font-size: 16px;
@@ -664,7 +673,7 @@ header .right {
 }
 
 @media (min-width: 722px) {
-  /* line 451, style.sass */
+  /* line 454, style.sass */
 
   .bc-mobilelogin {
     display: none;
@@ -672,14 +681,14 @@ header .right {
 }
 
 @media (max-width: 722px) {
-  /* line 461, style.sass */
+  /* line 464, style.sass */
 
   .login-area {
     display: none;
   }
 }
 
-/* line 464, style.sass */
+/* line 467, style.sass */
 
 .login-area #login {
   display: inline-block;
@@ -688,14 +697,14 @@ header .right {
 }
 
 @media (max-width: 991px) {
-  /* line 464, style.sass */
+  /* line 467, style.sass */
 
   .login-area #login {
     padding-top: 28px;
   }
 }
 
-/* line 471, style.sass */
+/* line 474, style.sass */
 
 #login div {
   width: 165px;
@@ -704,14 +713,14 @@ header .right {
 }
 
 @media (max-width: 992px) {
-  /* line 471, style.sass */
+  /* line 474, style.sass */
 
   #login div {
     width: 147px;
   }
 }
 
-/* line 478, style.sass */
+/* line 481, style.sass */
 
 #login input[type="submit"] {
   background-color: #002b46;
@@ -723,7 +732,7 @@ header .right {
   margin-left: -4px;
 }
 
-/* line 486, style.sass */
+/* line 489, style.sass */
 
 #login input[type="text"],
 #login input[type="password"] {
@@ -740,7 +749,7 @@ header .right {
   font-family: Verdana, sans;
 }
 
-/* line 500, style.sass */
+/* line 503, style.sass */
 
 #login a {
   position: absolute;
@@ -754,7 +763,7 @@ header .right {
  *
  * =========================================================================================== */
 
-/* line 515, style.sass */
+/* line 518, style.sass */
 
 .pre-footer {
   margin-top: 50px;
@@ -763,28 +772,28 @@ header .right {
   background: #e5e5e5;
 }
 
-/* line 520, style.sass */
+/* line 523, style.sass */
 
 .pre-footer ul {
   text-align: center;
 }
 
 @media (max-width: 991px) {
-  /* line 522, style.sass */
+  /* line 525, style.sass */
 
   .pre-footer ul li {
     padding: 16px;
   }
 }
 
-/* line 527, style.sass */
+/* line 530, style.sass */
 
 .copyright {
   background-color: #3a3a3a;
   padding: 40px 0;
 }
 
-/* line 530, style.sass */
+/* line 533, style.sass */
 
 .copyright p {
   text-align: right;
@@ -799,13 +808,13 @@ header .right {
  *
  * =========================================================================================== */
 
-/* line 548, style.sass */
+/* line 551, style.sass */
 
 .bc-calendar div:nth-child(n+9) {
   display: none;
 }
 
-/* line 550, style.sass */
+/* line 553, style.sass */
 
 .bc-calendar .col {
   margin: 10px;
@@ -819,20 +828,20 @@ header .right {
 }
 
 @media (min-width: 991%) {
-  /* line 550, style.sass */
+  /* line 553, style.sass */
 
   .bc-calendar .col {
     width: 31%;
   }
 }
 
-/* line 560, style.sass */
+/* line 563, style.sass */
 
 .bc-calendar .col h4 {
   margin-bottom: 2px;
 }
 
-/* line 562, style.sass */
+/* line 565, style.sass */
 
 .bc-calendar .col h4 a {
   color: #002a48;
@@ -843,13 +852,13 @@ header .right {
   line-height: 26px;
 }
 
-/* line 569, style.sass */
+/* line 572, style.sass */
 
 .bc-calendar .col p {
   font-size: 16px;
 }
 
-/* line 571, style.sass */
+/* line 574, style.sass */
 
 .bc-calendar .col .bc-date,
 .bc-calendar .col .bc-email {
@@ -857,13 +866,13 @@ header .right {
   margin-bottom: 0px;
 }
 
-/* line 574, style.sass */
+/* line 577, style.sass */
 
 .bc-calendar .col .bc-email {
   margin-bottom: 15px;
 }
 
-/* line 576, style.sass */
+/* line 579, style.sass */
 
 .bc-calendar .col .bc-email a {
   color: #008ab1;
@@ -873,13 +882,13 @@ header .right {
   transition: all 0.2s ease, padding 0.8s linear;
 }
 
-/* line 580, style.sass */
+/* line 583, style.sass */
 
 .bc-calendar .col .bc-email a:hover {
   color: #00627e;
 }
 
-/* line 583, style.sass */
+/* line 586, style.sass */
 
 .bc-calendar .col .read-more {
   font-family: Verdana, sans;
@@ -888,7 +897,7 @@ header .right {
   text-align: right;
 }
 
-/* line 588, style.sass */
+/* line 591, style.sass */
 
 .bc-calendar .col .read-more a {
   color: #008ab1;
@@ -898,7 +907,7 @@ header .right {
   transition: all 0.2s ease, padding 0.8s linear;
 }
 
-/* line 592, style.sass */
+/* line 595, style.sass */
 
 .bc-calendar .col .read-more a:hover {
   color: #00627e;
