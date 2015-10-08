@@ -4,6 +4,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
 ?>
  
 <div class="bc-slidearea">
+    <div class="bc-inner">
     <div class="row">  
         
     <div class="col col-sm-12 col-md-8">   
@@ -16,6 +17,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
     </div><!-- /.col3-->    
             
         </div><!-- /.row -->
+    </div><!-- /.bc-inner -->
 </div><!-- /.slide-area -->
 
 
