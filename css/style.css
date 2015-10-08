@@ -200,7 +200,7 @@ header .right {
 /* line 190, style.sass */
 
 #NP ul li:before {
-  content: url(images/dot.png);
+  content: url("../images/dot.png");
   float: left;
 }
 
