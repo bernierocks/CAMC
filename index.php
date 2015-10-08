@@ -6,7 +6,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
 
 <div class="row">  
     <div class="col col-sm-12 col-md-12">   
-        <?php  echo quick_slideshow('FD1', 7000); ?> 
+        <? include('/home/camc/public_html/banner_ad_feed.php'); ?>
     </div><!-- /.col12-->    
 </div><!-- /.row -->
     
