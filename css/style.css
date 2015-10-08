@@ -544,14 +544,22 @@ header .right {
   margin: 0 auto;
 }
 
-/* line 387, style.sass */
+/* line 386, style.sass */
+
+.bc-slidearea .bc-inner h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* line 390, style.sass */
 
 .carousel-control {
   background-image: none;
   display: none;
 }
 
-/* line 391, style.sass */
+/* line 394, style.sass */
 
 .carousel-indicators {
   display: none;
@@ -563,7 +571,7 @@ header .right {
  *
  * =========================================================================================== */
 
-/* line 401, style.sass */
+/* line 404, style.sass */
 
 .bc-content {
   padding: 0;
@@ -575,7 +583,7 @@ header .right {
  *
  * =========================================================================================== */
 
-/* line 414, style.sass */
+/* line 417, style.sass */
 
 #welcome-message {
   color: white;
@@ -587,14 +595,14 @@ header .right {
  *
  * =========================================================================================== */
 
-/* line 424, style.sass */
+/* line 427, style.sass */
 
 .modal-body {
   text-align: center;
 }
 
 @media (max-width: 480px) {
-  /* line 427, style.sass */
+  /* line 430, style.sass */
 
   .modal-body #login div {
     width: 100%;
@@ -603,7 +611,7 @@ header .right {
 }
 
 @media (max-width: 480px) {
-  /* line 431, style.sass */
+  /* line 434, style.sass */
 
   .modal-body #login input[type="submit"] {
     width: 95%;
@@ -613,28 +621,28 @@ header .right {
 }
 
 @media (max-width: 320px) {
-  /* line 431, style.sass */
+  /* line 434, style.sass */
 
   .modal-body #login input[type="submit"] {
     width: 93%;
   }
 }
 
-/* line 438, style.sass */
+/* line 441, style.sass */
 
 .modal-body #login a {
   color: #008ab1;
 }
 
 @media (max-width: 480px) {
-  /* line 438, style.sass */
+  /* line 441, style.sass */
 
   .modal-body #login a {
     margin: 40px 0 0 -3px;
   }
 }
 
-/* line 442, style.sass */
+/* line 445, style.sass */
 
 .bc-mobilelogin {
   font-size: 16px;
@@ -646,7 +654,7 @@ header .right {
 }
 
 @media (min-width: 722px) {
-  /* line 442, style.sass */
+  /* line 445, style.sass */
 
   .bc-mobilelogin {
     display: none;
@@ -654,14 +662,14 @@ header .right {
 }
 
 @media (max-width: 722px) {
-  /* line 452, style.sass */
+  /* line 455, style.sass */
 
   .login-area {
     display: none;
   }
 }
 
-/* line 455, style.sass */
+/* line 458, style.sass */
 
 .login-area #login {
   display: inline-block;
@@ -670,14 +678,14 @@ header .right {
 }
 
 @media (max-width: 991px) {
-  /* line 455, style.sass */
+  /* line 458, style.sass */
 
   .login-area #login {
     padding-top: 28px;
   }
 }
 
-/* line 462, style.sass */
+/* line 465, style.sass */
 
 #login div {
   width: 165px;
@@ -686,14 +694,14 @@ header .right {
 }
 
 @media (max-width: 992px) {
-  /* line 462, style.sass */
+  /* line 465, style.sass */
 
   #login div {
     width: 147px;
   }
 }
 
-/* line 469, style.sass */
+/* line 472, style.sass */
 
 #login input[type="submit"] {
   background-color: #002b46;
@@ -705,7 +713,7 @@ header .right {
   margin-left: -4px;
 }
 
-/* line 477, style.sass */
+/* line 480, style.sass */
 
 #login input[type="text"],
 #login input[type="password"] {
@@ -722,7 +730,7 @@ header .right {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 491, style.sass */
+/* line 494, style.sass */
 
 #login a {
   position: absolute;
@@ -736,7 +744,7 @@ header .right {
  *
  * =========================================================================================== */
 
-/* line 506, style.sass */
+/* line 509, style.sass */
 
 .pre-footer {
   margin-top: 50px;
@@ -745,28 +753,28 @@ header .right {
   background: #e5e5e5;
 }
 
-/* line 511, style.sass */
+/* line 514, style.sass */
 
 .pre-footer ul {
   text-align: center;
 }
 
 @media (max-width: 991px) {
-  /* line 513, style.sass */
+  /* line 516, style.sass */
 
   .pre-footer ul li {
     padding: 16px;
   }
 }
 
-/* line 518, style.sass */
+/* line 521, style.sass */
 
 .copyright {
   background-color: #3a3a3a;
   padding: 40px 0;
 }
 
-/* line 521, style.sass */
+/* line 524, style.sass */
 
 .copyright p {
   text-align: right;
@@ -781,13 +789,13 @@ header .right {
  *
  * =========================================================================================== */
 
-/* line 539, style.sass */
+/* line 542, style.sass */
 
 .bc-calendar div:nth-child(n+9) {
   display: none;
 }
 
-/* line 541, style.sass */
+/* line 544, style.sass */
 
 .bc-calendar .col {
   margin: 10px;
@@ -801,20 +809,20 @@ header .right {
 }
 
 @media (min-width: 991%) {
-  /* line 541, style.sass */
+  /* line 544, style.sass */
 
   .bc-calendar .col {
     width: 31%;
   }
 }
 
-/* line 551, style.sass */
+/* line 554, style.sass */
 
 .bc-calendar .col h4 {
   margin-bottom: 2px;
 }
 
-/* line 553, style.sass */
+/* line 556, style.sass */
 
 .bc-calendar .col h4 a {
   color: #002a48;
@@ -825,13 +833,13 @@ header .right {
   line-height: 26px;
 }
 
-/* line 560, style.sass */
+/* line 563, style.sass */
 
 .bc-calendar .col p {
   font-size: 16px;
 }
 
-/* line 562, style.sass */
+/* line 565, style.sass */
 
 .bc-calendar .col .bc-date,
 .bc-calendar .col .bc-email {
@@ -839,13 +847,13 @@ header .right {
   margin-bottom: 0px;
 }
 
-/* line 565, style.sass */
+/* line 568, style.sass */
 
 .bc-calendar .col .bc-email {
   margin-bottom: 15px;
 }
 
-/* line 567, style.sass */
+/* line 570, style.sass */
 
 .bc-calendar .col .bc-email a {
   color: #008ab1;
@@ -855,13 +863,13 @@ header .right {
   transition: all 0.2s ease, padding 0.8s linear;
 }
 
-/* line 571, style.sass */
+/* line 574, style.sass */
 
 .bc-calendar .col .bc-email a:hover {
   color: #00627e;
 }
 
-/* line 574, style.sass */
+/* line 577, style.sass */
 
 .bc-calendar .col .read-more {
   font-family: "Open Sans", sans-serif;
@@ -870,7 +878,7 @@ header .right {
   text-align: right;
 }
 
-/* line 579, style.sass */
+/* line 582, style.sass */
 
 .bc-calendar .col .read-more a {
   color: #008ab1;
@@ -880,7 +888,7 @@ header .right {
   transition: all 0.2s ease, padding 0.8s linear;
 }
 
-/* line 583, style.sass */
+/* line 586, style.sass */
 
 .bc-calendar .col .read-more a:hover {
   color: #00627e;
