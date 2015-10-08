@@ -212,8 +212,8 @@ header .right {
 .nav .open > a:focus,
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: #008ab1 !important;
-  color: white !important;
+  background: #cbe0ee !important;
+  color: black !important;
 }
 
 /* line 198, style.sass */
