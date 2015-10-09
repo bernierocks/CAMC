@@ -30,6 +30,9 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
     <div class="row">  
         <div class="col col-sm-12 col-md-4">   
             <h3 class="titles">CAMC Events</h3>
+            <div class="indent">
+                <? include("/home/camc/public_html/events_feed.php");?>
+            </div><!-- /.indent -->
         </div><!-- /.col4-->
         
         <div class="col col-sm-12 col-md-4">   
