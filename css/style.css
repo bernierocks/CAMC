@@ -598,13 +598,28 @@ header .right img {
   padding: 0;
 }
 
+/* line 417, style.sass */
+
+.titles {
+  font-family: impact, verdana, sans;
+  font-size: 22px;
+  width: 90%;
+  display: block;
+  padding: 5px;
+  border-left: 2px solid #0071c2;
+  border-bottom: 2px solid #0071c2;
+  background: url(../images/sh-bg.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
 /* ===========================================================================================
  *
  * 						HOMEPAGE
  *
  * =========================================================================================== */
 
-/* line 426, style.sass */
+/* line 436, style.sass */
 
 #welcome-message {
   color: white;
@@ -612,7 +627,7 @@ header .right img {
 }
 
 @media (max-width: 767px) {
-  /* line 426, style.sass */
+  /* line 436, style.sass */
 
   #welcome-message {
     margin-top: 15px;
@@ -626,14 +641,14 @@ header .right img {
  *
  * =========================================================================================== */
 
-/* line 440, style.sass */
+/* line 450, style.sass */
 
 .modal-body {
   text-align: center;
 }
 
 @media (max-width: 480px) {
-  /* line 443, style.sass */
+  /* line 453, style.sass */
 
   .modal-body #login div {
     width: 100%;
@@ -642,7 +657,7 @@ header .right img {
 }
 
 @media (max-width: 480px) {
-  /* line 447, style.sass */
+  /* line 457, style.sass */
 
   .modal-body #login input[type="submit"] {
     width: 95%;
@@ -652,28 +667,28 @@ header .right img {
 }
 
 @media (max-width: 320px) {
-  /* line 447, style.sass */
+  /* line 457, style.sass */
 
   .modal-body #login input[type="submit"] {
     width: 93%;
   }
 }
 
-/* line 454, style.sass */
+/* line 464, style.sass */
 
 .modal-body #login a {
   color: #008ab1;
 }
 
 @media (max-width: 480px) {
-  /* line 454, style.sass */
+  /* line 464, style.sass */
 
   .modal-body #login a {
     margin: 40px 0 0 -3px;
   }
 }
 
-/* line 458, style.sass */
+/* line 468, style.sass */
 
 .bc-mobilelogin {
   font-size: 16px;
@@ -685,7 +700,7 @@ header .right img {
 }
 
 @media (min-width: 722px) {
-  /* line 458, style.sass */
+  /* line 468, style.sass */
 
   .bc-mobilelogin {
     display: none;
@@ -693,14 +708,14 @@ header .right img {
 }
 
 @media (max-width: 722px) {
-  /* line 468, style.sass */
+  /* line 478, style.sass */
 
   .login-area {
     display: none;
   }
 }
 
-/* line 471, style.sass */
+/* line 481, style.sass */
 
 .login-area #login {
   display: inline-block;
@@ -709,14 +724,14 @@ header .right img {
 }
 
 @media (max-width: 991px) {
-  /* line 471, style.sass */
+  /* line 481, style.sass */
 
   .login-area #login {
     padding-top: 28px;
   }
 }
 
-/* line 478, style.sass */
+/* line 488, style.sass */
 
 #login div {
   width: 165px;
@@ -725,14 +740,14 @@ header .right img {
 }
 
 @media (max-width: 992px) {
-  /* line 478, style.sass */
+  /* line 488, style.sass */
 
   #login div {
     width: 147px;
   }
 }
 
-/* line 485, style.sass */
+/* line 495, style.sass */
 
 #login input[type="submit"] {
   background-color: #002b46;
@@ -744,7 +759,7 @@ header .right img {
   margin-left: -4px;
 }
 
-/* line 493, style.sass */
+/* line 503, style.sass */
 
 #login input[type="text"],
 #login input[type="password"] {
@@ -761,7 +776,7 @@ header .right img {
   font-family: Verdana, sans;
 }
 
-/* line 507, style.sass */
+/* line 517, style.sass */
 
 #login a {
   position: absolute;
@@ -775,7 +790,7 @@ header .right img {
  *
  * =========================================================================================== */
 
-/* line 522, style.sass */
+/* line 532, style.sass */
 
 .pre-footer {
   margin-top: 50px;
@@ -784,28 +799,28 @@ header .right img {
   background: #e5e5e5;
 }
 
-/* line 527, style.sass */
+/* line 537, style.sass */
 
 .pre-footer ul {
   text-align: center;
 }
 
 @media (max-width: 991px) {
-  /* line 529, style.sass */
+  /* line 539, style.sass */
 
   .pre-footer ul li {
     padding: 16px;
   }
 }
 
-/* line 534, style.sass */
+/* line 544, style.sass */
 
 .copyright {
   background-color: #3a3a3a;
   padding: 40px 0;
 }
 
-/* line 537, style.sass */
+/* line 547, style.sass */
 
 .copyright p {
   text-align: right;
@@ -820,13 +835,13 @@ header .right img {
  *
  * =========================================================================================== */
 
-/* line 555, style.sass */
+/* line 565, style.sass */
 
 .bc-calendar div:nth-child(n+9) {
   display: none;
 }
 
-/* line 557, style.sass */
+/* line 567, style.sass */
 
 .bc-calendar .col {
   margin: 10px;
@@ -840,20 +855,20 @@ header .right img {
 }
 
 @media (min-width: 991%) {
-  /* line 557, style.sass */
+  /* line 567, style.sass */
 
   .bc-calendar .col {
     width: 31%;
   }
 }
 
-/* line 567, style.sass */
+/* line 577, style.sass */
 
 .bc-calendar .col h4 {
   margin-bottom: 2px;
 }
 
-/* line 569, style.sass */
+/* line 579, style.sass */
 
 .bc-calendar .col h4 a {
   color: #002a48;
@@ -864,13 +879,13 @@ header .right img {
   line-height: 26px;
 }
 
-/* line 576, style.sass */
+/* line 586, style.sass */
 
 .bc-calendar .col p {
   font-size: 16px;
 }
 
-/* line 578, style.sass */
+/* line 588, style.sass */
 
 .bc-calendar .col .bc-date,
 .bc-calendar .col .bc-email {
@@ -878,13 +893,13 @@ header .right img {
   margin-bottom: 0px;
 }
 
-/* line 581, style.sass */
+/* line 591, style.sass */
 
 .bc-calendar .col .bc-email {
   margin-bottom: 15px;
 }
 
-/* line 583, style.sass */
+/* line 593, style.sass */
 
 .bc-calendar .col .bc-email a {
   color: #008ab1;
@@ -894,13 +909,13 @@ header .right img {
   transition: all 0.2s ease, padding 0.8s linear;
 }
 
-/* line 587, style.sass */
+/* line 597, style.sass */
 
 .bc-calendar .col .bc-email a:hover {
   color: #00627e;
 }
 
-/* line 590, style.sass */
+/* line 600, style.sass */
 
 .bc-calendar .col .read-more {
   font-family: Verdana, sans;
@@ -909,7 +924,7 @@ header .right img {
   text-align: right;
 }
 
-/* line 595, style.sass */
+/* line 605, style.sass */
 
 .bc-calendar .col .read-more a {
   color: #008ab1;
@@ -919,7 +934,7 @@ header .right img {
   transition: all 0.2s ease, padding 0.8s linear;
 }
 
-/* line 599, style.sass */
+/* line 609, style.sass */
 
 .bc-calendar .col .read-more a:hover {
   color: #00627e;
