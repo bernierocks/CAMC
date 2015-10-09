@@ -48,6 +48,15 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
         
         <div class="col col-sm-12 col-md-4">   
             <h3 class="titles">Member Log In</h3>
+            <div class="indent">
+							<form method="POST" style="display:inline;" action="https://www.viethconsulting.com/members/gateway.php">
+								<input class="ls-box"  type="text" name="Username" value="Username..." onFocus="this.value='';" /><br />
+								<input class="ls-box" type="password" name="Password" value="Password..." onFocus="this.type='password';this.value=''" id="Password"/>
+								<input type="submit" value="Log In" class="ls-button" />
+								<a href="<?=$base?>forgot_pwd.php"><i>Forgot Password?</i></a>
+								
+							</form>
+						</div>
         </div><!-- /.col4-->
     </div><!-- /.row -->
 
