@@ -57,6 +57,19 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
 								
 							</form>
 						</div>
+            
+            <h3 class="titles">Search the Site</h3>
+                        <div class="indent">
+							<form id="searchbox_006666080711133337058:9cbw5nvm-7k" action="<?=$base?>search.php?ma=Y">
+								<input value="006666080711133337058:9cbw5nvm-7k" name="cx" type="hidden"/>
+								<input value="FORID:11" name="cof" type="hidden"/>
+								<input id="q" class="ls-box" name="q" />
+								<input value="Search" name="sa" class="ls-button" type="submit"/>
+								<br />
+							</form>
+						</div>
+
+            
         </div><!-- /.col4-->
     </div><!-- /.row -->
 
