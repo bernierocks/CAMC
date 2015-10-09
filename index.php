@@ -74,6 +74,29 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
 							<?include("/home/camc/public_html/links.htm")?>
 						</div>
             
+            <h3 class="titles">Search the Site</h3>
+            <div class="indent blue-border" style="margin-left: -1px;">
+							<div id="slider-container-FD2" style="display:none;margin:0px auto; width:262px; height:300"
+							name="https://www.viethconsulting.com/slideshows/nivo_feed.php?org_id=CAMC&ban=FD2&speed=6">Loading...</div>
+							<link href="https://www.viethconsulting.com/_jquery/nivo/nivo-slider.css" media="screen" rel="stylesheet" type="text/css">
+							<script type="text/javascript" src="https://www.viethconsulting.com/_jquery/js/init_jquery.js"></script>
+							<script type="text/javascript" src="https://www.viethconsulting.com/_jquery/js/init_nivoslider.js"></script>
+							<script type="text/javascript">
+							function banner_callback_FD2(data){
+								 $("#slider-container-FD2").html(data.html).show();
+							}
+							$(document).ready( function() {
+								$.ajax({
+									url: $("#slider-container-FD2").attr("name"),
+									dataType: 'jsonp',
+									jsonpCallback: 'banner_callback_FD2',
+									success: function(data){
+										// we make a successful JSONP call!
+									}
+								});
+							});
+							</script>
+						</div>
         </div><!-- /.col4-->
         
     </div><!-- /.row -->
