@@ -99,7 +99,7 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
         </div><!-- /.col4-->
         
     </div><!-- /.row -->
-    <div class="row"> 
+    <div class="mid-bottom row"> 
         <div class="col col-sm-12 col-md-12">   
             <h3 class="titles">Contact Information</h3>
         </div><!-- /.col12-->
