@@ -136,7 +136,14 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
 				Like us on Facebook</a></p>
             </li>
             
-            
+            <li>
+                <p>
+                <img src="images/icon-twitter.png">
+            <a href="https://twitter.com/CAMCouncil">
+				Follow us
+				on Twitter</a>
+                    </p>
+            </li>
         </ul>
             </div><!-- /.col12-->
     </div><!-- /.row -->
