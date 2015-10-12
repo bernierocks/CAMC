@@ -429,8 +429,9 @@ header
             padding: 20px 15px !important
 .bc-slidearea
     .col-md-4
-        margin-top: 25px
-        padding-bottom: 40px
+        +bcbreakpoint($min: 0, $max: 992px)
+            margin-top: 25px
+            padding-bottom: 40px
     
 
 .titles
