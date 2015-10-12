@@ -415,6 +415,9 @@ header
     padding: 0
     
 .bc-content-mid    
+    +bcbreakpoint($min: 0, $max: 991px)
+        img
+            float: none !important    
     .col  
         padding: 20px 25px
         .indent
@@ -424,9 +427,7 @@ header
         +bcbreakpoint($min: 992px, $max: 0)
             background-color: #c2c2c2
             padding: 20px 15px !important
-        +bcbreakpoint($min: 0, $max: 991px)
-            img
-                float: none
+                        
     
 
 .titles
