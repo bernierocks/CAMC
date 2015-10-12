@@ -704,7 +704,7 @@ header .right img {
 
 /* line 480, style.sass */
 
-.bottom ul li:last-nth-child(1) {
+.bottom ul li:nth-last-child(1) {
   margin-right: 0;
 }
 
