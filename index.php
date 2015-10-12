@@ -105,6 +105,20 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
         </div><!-- /.col12-->
         
     </div><!-- /.row -->
+    <div class="row">  
+        <ul class="list-unstyled  list-inline">
+            <li>
+                <img alt="" src="images/icon-mail.png">
+                
+				<p>
+                    2110 South Cedar
+                <br>
+				Lansing, MI 48910
+                    </p>
+			
+            </li>
+        </ul>
+    </div><!-- /.row -->
 
 </div><!-- /. -->
 
