@@ -641,7 +641,7 @@ header .right img {
 /* line 443, style.sass */
 
 .db {
-  background-image: url("images/datebox.png");
+  background-image: url("../images/datebox.png");
   background-repeat: no-repeat;
   height: 39px;
   width: 49px;
