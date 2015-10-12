@@ -144,6 +144,12 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
 				on Twitter</a>
                     </p>
             </li>
+            <li>
+                <p>
+            <img src="http://www.camconline.org/images/icon-michelle.png">
+				For more information about the CAMC, contact <a href="mailto:mcordano@camw.net">Michelle Cordano</a>
+                    </p>
+            </li>
         </ul>
             </div><!-- /.col12-->
     </div><!-- /.row -->
