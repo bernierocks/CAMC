@@ -684,7 +684,7 @@ header .right img {
   margin-right: 35px;
 }
 
-@media (max-width: 973px) {
+@media (min-width: 973px) {
   /* line 476, style.sass */
 
   .bottom ul li:nth-child(5) {
