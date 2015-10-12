@@ -112,7 +112,7 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
                 
                 
 				<p>
-                    <img alt="" src="images/icon-mail.png">
+                    <img alt="" src="<?=$base;?>images/icon-mail.png">
                     2110 South Cedar
                 <br>
 				Lansing, MI 48910
@@ -122,7 +122,7 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
             
             <li>
 				<p>
-                    <img alt="" src="images/icon-phone.png">
+                    <img alt="" src="<?=$base;?>images/icon-phone.png">
                     (517) 492-5588
             </p>
 			</li>
@@ -131,14 +131,14 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
             <li>
                 <p>
                 
-                <img alt="" src="images/icon-facebook.png">
+                <img alt="" src="<?=$base;?>images/icon-facebook.png">
                 <a href="https://www.facebook.com/camconline?ref=stream">
 				Like us on Facebook</a></p>
             </li>
             
             <li>
                 <p>
-                <img src="images/icon-twitter.png">
+                <img src="<?=$base;?>images/icon-twitter.png">
             <a href="https://twitter.com/CAMCouncil">
 				Follow us
 				on Twitter</a>
@@ -146,7 +146,7 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
             </li>
             <li>
                 <p>
-            <img src="http://www.camconline.org/images/icon-michelle.png">
+            <img src="<?=$base;?>images/icon-michelle.png">
 				For more information about the CAMC, contact <a href="mailto:mcordano@camw.net">Michelle Cordano</a>
                     </p>
             </li>
