@@ -106,6 +106,7 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
         
     </div><!-- /.row -->
     <div class="row">  
+        <div class="col col-sm-12 col-md-12">   
         <ul class="list-unstyled  list-inline">
             <li>
                 <img alt="" src="images/icon-mail.png">
@@ -118,6 +119,7 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
 			
             </li>
         </ul>
+            </div><!-- /.col12-->
     </div><!-- /.row -->
 
 </div><!-- /. -->
