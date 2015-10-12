@@ -126,6 +126,17 @@ The Capital Area Manufacturing Council (CAMC) is an important business alliance 
                     (517) 492-5588
             </p>
 			</li>
+            
+            
+            <li>
+            <p>
+                <img alt="" src="images/icon-facebook.png">
+                <a href="https://www.facebook.com/camconline?ref=stream"><img src="http://www.camconline.org/images/icon-facebook.png">
+				Like us<br>
+				on Facebook</a></p>
+            </li>
+            
+            
         </ul>
             </div><!-- /.col12-->
     </div><!-- /.row -->
