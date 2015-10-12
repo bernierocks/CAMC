@@ -471,14 +471,16 @@ header
         li
             float: left
             margin-right: 35px
-            &:nth-child(5)
-                max-width: 250px
-            &:nth-child(4)
-                max-width: 108px 
-            &:nth-child(3)
-                max-width: 97px
-            &:nth-last-child(1)
-                margin-right: 0
+            
+            +bcbreakpoint($min: 0, $max: 973px)
+                &:nth-child(5)
+                    max-width: 250px
+                &:nth-child(4)
+                    max-width: 108px 
+                &:nth-child(3)
+                    max-width: 97px
+                &:nth-last-child(1)
+                    margin-right: 0
     p
         font-size: 12px
         
